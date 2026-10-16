@@ -1,0 +1,12 @@
+program=libnvidia-ml.so.595.71.05
+executable_path=/usr/lib/libnvidia-ml.so.595.71.05
+language=x86:LE:64:default
+compiler_spec=gcc
+functions_total=3951
+functions_decompiled_ok=3951
+functions_failed=0
+symbols_total=80320
+defined_strings=6042
+sections=30
+elapsed_ms=107249
+elapsed_min=1.7874833333333333

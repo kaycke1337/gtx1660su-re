@@ -1,0 +1,11 @@
+Model: 		 NVIDIA GeForce GTX 1660 SUPER
+IRQ:   		 32
+GPU UUID: 	 GPU-ca27b7f0-ef35-fbc7-8f32-4723b798428c
+Video BIOS: 	 90.16.4f.00.e5
+Bus Type: 	 PCIe
+DMA Size: 	 47 bits
+DMA Mask: 	 0x7fffffffffff
+Bus Location: 	 0000:01:00.0
+Device Minor: 	 0
+GPU Firmware: 	 595.71.05
+GPU Excluded:	 No

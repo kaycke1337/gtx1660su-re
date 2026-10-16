@@ -1,0 +1,339 @@
+2026-10-13 23:05:43 INFO  (LoggingInitialization) Using log config file: jar:file:/run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-13 23:05:43 INFO  (LoggingInitialization) Using log file: /run/media/kaycke/343AE6CE3AE68BE4/rea-gpu-full/libnvidia-ml/headless.log  
+2026-10-13 23:05:44 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-13 23:05:44 INFO  (Preferences) Loading user preferences: /home/kaycke/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-10-13 23:05:44 INFO  (ClassSearcher) Searching for classes...  
+2026-10-13 23:05:49 INFO  (ClassSearcher) Class search complete (4563 ms)  
+2026-10-13 23:05:49 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-13 23:05:49 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-13 23:05:49 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-13 23:05:49 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-13 23:05:51 INFO  (AnalyzeHeadless) Headless startup complete (10719 ms)  
+2026-10-13 23:05:51 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-10-13 23:05:56 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/kaycke/rea-gpu-analysis/scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts  
+2026-10-13 23:05:56 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-13 23:05:56 INFO  (HeadlessAnalyzer) Creating project: /tmp/ghidra-projects/gpuml  
+2026-10-13 23:05:56 INFO  (DefaultProject) Creating project: /tmp/ghidra-projects/gpuml  
+2026-10-13 23:05:57 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-10-13 23:05:57 INFO  (HeadlessAnalyzer)      project: /tmp/ghidra-projects/gpuml  
+2026-10-13 23:05:57 INFO  (HeadlessAnalyzer) IMPORTING: file:///usr/lib/libnvidia-ml.so.595.71.05  
+2026-10-13 23:06:07 INFO  (ProgramLoader) Using Loader: Executable and Linking Format (ELF)  
+2026-10-13 23:06:07 INFO  (ProgramLoader) Using Language/Compiler: x86:LE:64:default:gcc  
+2026-10-13 23:06:07 INFO  (ProgramLoader) Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64]  
+2026-10-13 23:06:10 DEBUG (ElfHeader) Elf symbol table section .dynsym linked to string table section .dynstr  
+2026-10-13 23:06:10 DEBUG (ElfHeader) Elf relocation table section .rela.dyn linked to symbol table section .dynsym affecting PT_LOAD  
+2026-10-13 23:06:10 DEBUG (ElfHeader) Elf relocation table section .rela.plt linked to symbol table section .dynsym affecting .got.plt  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 16-byte alignment/filler segment_3.7 at 0032eff0  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 24-byte alignment/filler segment_3.9 at 0032f648  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 2-byte alignment/filler segment_2.2 at 002f641a  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 8-byte alignment/filler segment_1.2 at 0011f018  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 8-byte alignment/filler segment_1.5 at 0011fcc8  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 3-byte alignment/filler segment_1.7 at 00297c11  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 4-byte alignment/filler segment_0.3 at 0010025c  
+2026-10-13 23:06:10 DEBUG (ElfProgramBuilder) Discarding 1-byte alignment/filler segment_0.8 at 001096bd  
+2026-10-13 23:06:16 INFO  (ProgramLoader) Additional info:
+Loading file:///usr/lib/libnvidia-ml.so.595.71.05?MD5=020cd1156cbce5ebbf12963d0c70496e...
+Setting block .eh_frame to read-only
+Setting block .ctors to read-only
+Setting block .dtors to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+------------------------------------------------
+
+Linking the External Programs of 'libnvidia-ml.so.595.71.05' to imported libraries...
+  [libpthread.so.0] -> not found in project
+  [libm.so.6] -> not found in project
+  [libdl.so.2] -> not found in project
+  [libc.so.6] -> not found in project
+  [librt.so.1] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/libnvidia-ml.so.595.71.05] - 208 unresolved symbols, no external libraries configured - skipping
+  
+2026-10-13 23:06:16 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-10-13 23:06:18 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///usr/lib/libnvidia-ml.so.595.71.05  
+2026-10-13 23:06:18 INFO  (ExternalDebugFileSectionProvider) DWARF external debug information found: ExternalDebugInfo [filename=libnvidia-ml.so.1.debug, crc=375056903, hash=ad40cabe396eae760a6b870ec1990f5e16cc9727, objectType=DEBUGINFO, extra=null]  
+2026-10-13 23:06:19 INFO  (DWARFAnalyzer) Unable to find DWARF information, skipping DWARF analysis  
+2026-10-13 23:07:02 INFO  (DecompilerSwitchAnalyzer) hit non-returning function, restarting decompiler switch analyzer later  
+2026-10-13 23:08:28 INFO  (PackedDatabaseCache) Packed database cache: /home/kaycke/.cache/ghidra/packed-db-cache  
+2026-10-13 23:08:28 DEBUG (PackedDatabaseCache) Using cached packed database: /run/media/kaycke/343AE6CE3AE68BE4/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib_64.gdt  
+2026-10-13 23:08:29 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2026-10-13 23:09:04 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              2.174 secs
+    Apply Data Archives                        1.064 secs
+    Call Convention ID                         0.177 secs
+    Call-Fixup Installer                       0.170 secs
+    Create Address Tables                      1.468 secs
+    Create Address Tables - One Time           0.770 secs
+    Create Function                            0.156 secs
+    DWARF                                      0.035 secs
+    Data Reference                             1.751 secs
+    Decompiler Switch Analysis                 2.562 secs
+    Decompiler Switch Analysis - One Time     33.520 secs
+    Demangler GNU                              1.022 secs
+    Disassemble Entry Points                  27.424 secs
+    ELF Scalar Operand References              8.759 secs
+    Embedded Media                             0.137 secs
+    External Entry References                  0.009 secs
+    Function ID                               11.030 secs
+    Function Start Pre Search                  0.231 secs
+    Function Start Search                      0.468 secs
+    Function Start Search After Code           0.432 secs
+    Function Start Search After Data           0.319 secs
+    GCC Exception Handlers                     9.769 secs
+    Non-Returning Functions - Discovered       2.878 secs
+    Non-Returning Functions - Known            0.061 secs
+    Reference                                  2.563 secs
+    Shared Return Calls                        1.593 secs
+    Stack                                     27.501 secs
+    Subroutine References                      0.819 secs
+    Subroutine References - One Time           0.000 secs
+    x86 Constant Reference Analyzer           26.265 secs
+-----------------------------------------------------
+     Total Time   165 secs
+-----------------------------------------------------
+  
+2026-10-13 23:09:04 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///usr/lib/libnvidia-ml.so.595.71.05  
+2026-10-13 23:09:04 INFO  (HeadlessAnalyzer) REPORT: Execute script: DumpAll.java '/run/media/kaycke/343AE6CE3AE68BE4/rea-gpu-full/libnvidia-ml'   
+2026-10-13 23:09:04 INFO  (HeadlessAnalyzer) SCRIPT: /home/kaycke/rea-gpu-analysis/scripts/DumpAll.java  
+2026-10-13 23:09:51 INFO  (GhidraScript) DumpAll.java> PROGRESS functions=2000 ok=2000 fail=0 elapsed_s=46  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219000, pcode error at 01219000: Unable to disassemble EXTERNAL block location: 01219000  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219008, pcode error at 01219008: Unable to disassemble EXTERNAL block location: 01219008  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219010, pcode error at 01219010: Unable to disassemble EXTERNAL block location: 01219010  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219018, pcode error at 01219018: Unable to disassemble EXTERNAL block location: 01219018  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219020, pcode error at 01219020: Unable to disassemble EXTERNAL block location: 01219020  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219028, pcode error at 01219028: Unable to disassemble EXTERNAL block location: 01219028  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219030, pcode error at 01219030: Unable to disassemble EXTERNAL block location: 01219030  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219038, pcode error at 01219038: Unable to disassemble EXTERNAL block location: 01219038  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219040, pcode error at 01219040: Unable to disassemble EXTERNAL block location: 01219040  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219048, pcode error at 01219048: Unable to disassemble EXTERNAL block location: 01219048  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219050, pcode error at 01219050: Unable to disassemble EXTERNAL block location: 01219050  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219058, pcode error at 01219058: Unable to disassemble EXTERNAL block location: 01219058  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219060, pcode error at 01219060: Unable to disassemble EXTERNAL block location: 01219060  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219068, pcode error at 01219068: Unable to disassemble EXTERNAL block location: 01219068  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219070, pcode error at 01219070: Unable to disassemble EXTERNAL block location: 01219070  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219078, pcode error at 01219078: Unable to disassemble EXTERNAL block location: 01219078  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219080, pcode error at 01219080: Unable to disassemble EXTERNAL block location: 01219080  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219090, pcode error at 01219090: Unable to disassemble EXTERNAL block location: 01219090  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219098, pcode error at 01219098: Unable to disassemble EXTERNAL block location: 01219098  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190a0, pcode error at 012190a0: Unable to disassemble EXTERNAL block location: 012190a0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190a8, pcode error at 012190a8: Unable to disassemble EXTERNAL block location: 012190a8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190b0, pcode error at 012190b0: Unable to disassemble EXTERNAL block location: 012190b0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190b8, pcode error at 012190b8: Unable to disassemble EXTERNAL block location: 012190b8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190c0, pcode error at 012190c0: Unable to disassemble EXTERNAL block location: 012190c0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190c8, pcode error at 012190c8: Unable to disassemble EXTERNAL block location: 012190c8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190d0, pcode error at 012190d0: Unable to disassemble EXTERNAL block location: 012190d0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190d8, pcode error at 012190d8: Unable to disassemble EXTERNAL block location: 012190d8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190e0, pcode error at 012190e0: Unable to disassemble EXTERNAL block location: 012190e0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190e8, pcode error at 012190e8: Unable to disassemble EXTERNAL block location: 012190e8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190f0, pcode error at 012190f0: Unable to disassemble EXTERNAL block location: 012190f0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012190f8, pcode error at 012190f8: Unable to disassemble EXTERNAL block location: 012190f8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219100, pcode error at 01219100: Unable to disassemble EXTERNAL block location: 01219100  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219108, pcode error at 01219108: Unable to disassemble EXTERNAL block location: 01219108  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219110, pcode error at 01219110: Unable to disassemble EXTERNAL block location: 01219110  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219118, pcode error at 01219118: Unable to disassemble EXTERNAL block location: 01219118  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219120, pcode error at 01219120: Unable to disassemble EXTERNAL block location: 01219120  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219128, pcode error at 01219128: Unable to disassemble EXTERNAL block location: 01219128  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219130, pcode error at 01219130: Unable to disassemble EXTERNAL block location: 01219130  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219138, pcode error at 01219138: Unable to disassemble EXTERNAL block location: 01219138  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219140, pcode error at 01219140: Unable to disassemble EXTERNAL block location: 01219140  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219148, pcode error at 01219148: Unable to disassemble EXTERNAL block location: 01219148  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219150, pcode error at 01219150: Unable to disassemble EXTERNAL block location: 01219150  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219158, pcode error at 01219158: Unable to disassemble EXTERNAL block location: 01219158  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219160, pcode error at 01219160: Unable to disassemble EXTERNAL block location: 01219160  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219168, pcode error at 01219168: Unable to disassemble EXTERNAL block location: 01219168  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219170, pcode error at 01219170: Unable to disassemble EXTERNAL block location: 01219170  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219178, pcode error at 01219178: Unable to disassemble EXTERNAL block location: 01219178  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219180, pcode error at 01219180: Unable to disassemble EXTERNAL block location: 01219180  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219188, pcode error at 01219188: Unable to disassemble EXTERNAL block location: 01219188  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219190, pcode error at 01219190: Unable to disassemble EXTERNAL block location: 01219190  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219198, pcode error at 01219198: Unable to disassemble EXTERNAL block location: 01219198  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191a0, pcode error at 012191a0: Unable to disassemble EXTERNAL block location: 012191a0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191a8, pcode error at 012191a8: Unable to disassemble EXTERNAL block location: 012191a8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191b0, pcode error at 012191b0: Unable to disassemble EXTERNAL block location: 012191b0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191b8, pcode error at 012191b8: Unable to disassemble EXTERNAL block location: 012191b8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191c0, pcode error at 012191c0: Unable to disassemble EXTERNAL block location: 012191c0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191c8, pcode error at 012191c8: Unable to disassemble EXTERNAL block location: 012191c8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191d0, pcode error at 012191d0: Unable to disassemble EXTERNAL block location: 012191d0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191d8, pcode error at 012191d8: Unable to disassemble EXTERNAL block location: 012191d8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191e0, pcode error at 012191e0: Unable to disassemble EXTERNAL block location: 012191e0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191e8, pcode error at 012191e8: Unable to disassemble EXTERNAL block location: 012191e8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191f0, pcode error at 012191f0: Unable to disassemble EXTERNAL block location: 012191f0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012191f8, pcode error at 012191f8: Unable to disassemble EXTERNAL block location: 012191f8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219200, pcode error at 01219200: Unable to disassemble EXTERNAL block location: 01219200  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219208, pcode error at 01219208: Unable to disassemble EXTERNAL block location: 01219208  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219210, pcode error at 01219210: Unable to disassemble EXTERNAL block location: 01219210  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219218, pcode error at 01219218: Unable to disassemble EXTERNAL block location: 01219218  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219220, pcode error at 01219220: Unable to disassemble EXTERNAL block location: 01219220  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219228, pcode error at 01219228: Unable to disassemble EXTERNAL block location: 01219228  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219230, pcode error at 01219230: Unable to disassemble EXTERNAL block location: 01219230  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219238, pcode error at 01219238: Unable to disassemble EXTERNAL block location: 01219238  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219240, pcode error at 01219240: Unable to disassemble EXTERNAL block location: 01219240  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219248, pcode error at 01219248: Unable to disassemble EXTERNAL block location: 01219248  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219250, pcode error at 01219250: Unable to disassemble EXTERNAL block location: 01219250  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219258, pcode error at 01219258: Unable to disassemble EXTERNAL block location: 01219258  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219260, pcode error at 01219260: Unable to disassemble EXTERNAL block location: 01219260  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219268, pcode error at 01219268: Unable to disassemble EXTERNAL block location: 01219268  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219270, pcode error at 01219270: Unable to disassemble EXTERNAL block location: 01219270  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219278, pcode error at 01219278: Unable to disassemble EXTERNAL block location: 01219278  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219280, pcode error at 01219280: Unable to disassemble EXTERNAL block location: 01219280  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219288, pcode error at 01219288: Unable to disassemble EXTERNAL block location: 01219288  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219290, pcode error at 01219290: Unable to disassemble EXTERNAL block location: 01219290  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219298, pcode error at 01219298: Unable to disassemble EXTERNAL block location: 01219298  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192a0, pcode error at 012192a0: Unable to disassemble EXTERNAL block location: 012192a0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192a8, pcode error at 012192a8: Unable to disassemble EXTERNAL block location: 012192a8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192b0, pcode error at 012192b0: Unable to disassemble EXTERNAL block location: 012192b0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192b8, pcode error at 012192b8: Unable to disassemble EXTERNAL block location: 012192b8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192c0, pcode error at 012192c0: Unable to disassemble EXTERNAL block location: 012192c0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192c8, pcode error at 012192c8: Unable to disassemble EXTERNAL block location: 012192c8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192d0, pcode error at 012192d0: Unable to disassemble EXTERNAL block location: 012192d0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192d8, pcode error at 012192d8: Unable to disassemble EXTERNAL block location: 012192d8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192e0, pcode error at 012192e0: Unable to disassemble EXTERNAL block location: 012192e0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192e8, pcode error at 012192e8: Unable to disassemble EXTERNAL block location: 012192e8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192f0, pcode error at 012192f0: Unable to disassemble EXTERNAL block location: 012192f0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012192f8, pcode error at 012192f8: Unable to disassemble EXTERNAL block location: 012192f8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219300, pcode error at 01219300: Unable to disassemble EXTERNAL block location: 01219300  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219308, pcode error at 01219308: Unable to disassemble EXTERNAL block location: 01219308  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219310, pcode error at 01219310: Unable to disassemble EXTERNAL block location: 01219310  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219318, pcode error at 01219318: Unable to disassemble EXTERNAL block location: 01219318  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219320, pcode error at 01219320: Unable to disassemble EXTERNAL block location: 01219320  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219328, pcode error at 01219328: Unable to disassemble EXTERNAL block location: 01219328  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219330, pcode error at 01219330: Unable to disassemble EXTERNAL block location: 01219330  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219338, pcode error at 01219338: Unable to disassemble EXTERNAL block location: 01219338  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219340, pcode error at 01219340: Unable to disassemble EXTERNAL block location: 01219340  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219348, pcode error at 01219348: Unable to disassemble EXTERNAL block location: 01219348  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219350, pcode error at 01219350: Unable to disassemble EXTERNAL block location: 01219350  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219358, pcode error at 01219358: Unable to disassemble EXTERNAL block location: 01219358  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219360, pcode error at 01219360: Unable to disassemble EXTERNAL block location: 01219360  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219368, pcode error at 01219368: Unable to disassemble EXTERNAL block location: 01219368  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219370, pcode error at 01219370: Unable to disassemble EXTERNAL block location: 01219370  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219378, pcode error at 01219378: Unable to disassemble EXTERNAL block location: 01219378  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219380, pcode error at 01219380: Unable to disassemble EXTERNAL block location: 01219380  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219388, pcode error at 01219388: Unable to disassemble EXTERNAL block location: 01219388  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219390, pcode error at 01219390: Unable to disassemble EXTERNAL block location: 01219390  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219398, pcode error at 01219398: Unable to disassemble EXTERNAL block location: 01219398  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193a8, pcode error at 012193a8: Unable to disassemble EXTERNAL block location: 012193a8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193b0, pcode error at 012193b0: Unable to disassemble EXTERNAL block location: 012193b0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193b8, pcode error at 012193b8: Unable to disassemble EXTERNAL block location: 012193b8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193c0, pcode error at 012193c0: Unable to disassemble EXTERNAL block location: 012193c0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193c8, pcode error at 012193c8: Unable to disassemble EXTERNAL block location: 012193c8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193d0, pcode error at 012193d0: Unable to disassemble EXTERNAL block location: 012193d0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193d8, pcode error at 012193d8: Unable to disassemble EXTERNAL block location: 012193d8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193e0, pcode error at 012193e0: Unable to disassemble EXTERNAL block location: 012193e0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193e8, pcode error at 012193e8: Unable to disassemble EXTERNAL block location: 012193e8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193f0, pcode error at 012193f0: Unable to disassemble EXTERNAL block location: 012193f0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012193f8, pcode error at 012193f8: Unable to disassemble EXTERNAL block location: 012193f8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219400, pcode error at 01219400: Unable to disassemble EXTERNAL block location: 01219400  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219408, pcode error at 01219408: Unable to disassemble EXTERNAL block location: 01219408  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219410, pcode error at 01219410: Unable to disassemble EXTERNAL block location: 01219410  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219418, pcode error at 01219418: Unable to disassemble EXTERNAL block location: 01219418  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219420, pcode error at 01219420: Unable to disassemble EXTERNAL block location: 01219420  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219428, pcode error at 01219428: Unable to disassemble EXTERNAL block location: 01219428  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219430, pcode error at 01219430: Unable to disassemble EXTERNAL block location: 01219430  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219438, pcode error at 01219438: Unable to disassemble EXTERNAL block location: 01219438  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219440, pcode error at 01219440: Unable to disassemble EXTERNAL block location: 01219440  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219448, pcode error at 01219448: Unable to disassemble EXTERNAL block location: 01219448  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219450, pcode error at 01219450: Unable to disassemble EXTERNAL block location: 01219450  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219458, pcode error at 01219458: Unable to disassemble EXTERNAL block location: 01219458  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219460, pcode error at 01219460: Unable to disassemble EXTERNAL block location: 01219460  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219468, pcode error at 01219468: Unable to disassemble EXTERNAL block location: 01219468  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219470, pcode error at 01219470: Unable to disassemble EXTERNAL block location: 01219470  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219478, pcode error at 01219478: Unable to disassemble EXTERNAL block location: 01219478  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219480, pcode error at 01219480: Unable to disassemble EXTERNAL block location: 01219480  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219488, pcode error at 01219488: Unable to disassemble EXTERNAL block location: 01219488  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219490, pcode error at 01219490: Unable to disassemble EXTERNAL block location: 01219490  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219498, pcode error at 01219498: Unable to disassemble EXTERNAL block location: 01219498  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194a0, pcode error at 012194a0: Unable to disassemble EXTERNAL block location: 012194a0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194a8, pcode error at 012194a8: Unable to disassemble EXTERNAL block location: 012194a8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194b0, pcode error at 012194b0: Unable to disassemble EXTERNAL block location: 012194b0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194b8, pcode error at 012194b8: Unable to disassemble EXTERNAL block location: 012194b8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194c0, pcode error at 012194c0: Unable to disassemble EXTERNAL block location: 012194c0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194c8, pcode error at 012194c8: Unable to disassemble EXTERNAL block location: 012194c8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194d0, pcode error at 012194d0: Unable to disassemble EXTERNAL block location: 012194d0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194d8, pcode error at 012194d8: Unable to disassemble EXTERNAL block location: 012194d8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194e0, pcode error at 012194e0: Unable to disassemble EXTERNAL block location: 012194e0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194e8, pcode error at 012194e8: Unable to disassemble EXTERNAL block location: 012194e8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194f0, pcode error at 012194f0: Unable to disassemble EXTERNAL block location: 012194f0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012194f8, pcode error at 012194f8: Unable to disassemble EXTERNAL block location: 012194f8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219500, pcode error at 01219500: Unable to disassemble EXTERNAL block location: 01219500  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219508, pcode error at 01219508: Unable to disassemble EXTERNAL block location: 01219508  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219510, pcode error at 01219510: Unable to disassemble EXTERNAL block location: 01219510  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219518, pcode error at 01219518: Unable to disassemble EXTERNAL block location: 01219518  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219520, pcode error at 01219520: Unable to disassemble EXTERNAL block location: 01219520  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219528, pcode error at 01219528: Unable to disassemble EXTERNAL block location: 01219528  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219538, pcode error at 01219538: Unable to disassemble EXTERNAL block location: 01219538  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219540, pcode error at 01219540: Unable to disassemble EXTERNAL block location: 01219540  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219548, pcode error at 01219548: Unable to disassemble EXTERNAL block location: 01219548  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219550, pcode error at 01219550: Unable to disassemble EXTERNAL block location: 01219550  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219558, pcode error at 01219558: Unable to disassemble EXTERNAL block location: 01219558  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219560, pcode error at 01219560: Unable to disassemble EXTERNAL block location: 01219560  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219568, pcode error at 01219568: Unable to disassemble EXTERNAL block location: 01219568  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219570, pcode error at 01219570: Unable to disassemble EXTERNAL block location: 01219570  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219578, pcode error at 01219578: Unable to disassemble EXTERNAL block location: 01219578  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219580, pcode error at 01219580: Unable to disassemble EXTERNAL block location: 01219580  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219588, pcode error at 01219588: Unable to disassemble EXTERNAL block location: 01219588  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219590, pcode error at 01219590: Unable to disassemble EXTERNAL block location: 01219590  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219598, pcode error at 01219598: Unable to disassemble EXTERNAL block location: 01219598  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195a0, pcode error at 012195a0: Unable to disassemble EXTERNAL block location: 012195a0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195a8, pcode error at 012195a8: Unable to disassemble EXTERNAL block location: 012195a8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195b0, pcode error at 012195b0: Unable to disassemble EXTERNAL block location: 012195b0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195b8, pcode error at 012195b8: Unable to disassemble EXTERNAL block location: 012195b8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195c0, pcode error at 012195c0: Unable to disassemble EXTERNAL block location: 012195c0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195c8, pcode error at 012195c8: Unable to disassemble EXTERNAL block location: 012195c8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195d0, pcode error at 012195d0: Unable to disassemble EXTERNAL block location: 012195d0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195d8, pcode error at 012195d8: Unable to disassemble EXTERNAL block location: 012195d8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195e0, pcode error at 012195e0: Unable to disassemble EXTERNAL block location: 012195e0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195e8, pcode error at 012195e8: Unable to disassemble EXTERNAL block location: 012195e8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195f0, pcode error at 012195f0: Unable to disassemble EXTERNAL block location: 012195f0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012195f8, pcode error at 012195f8: Unable to disassemble EXTERNAL block location: 012195f8  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219600, pcode error at 01219600: Unable to disassemble EXTERNAL block location: 01219600  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219608, pcode error at 01219608: Unable to disassemble EXTERNAL block location: 01219608  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219610, pcode error at 01219610: Unable to disassemble EXTERNAL block location: 01219610  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219618, pcode error at 01219618: Unable to disassemble EXTERNAL block location: 01219618  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219620, pcode error at 01219620: Unable to disassemble EXTERNAL block location: 01219620  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219628, pcode error at 01219628: Unable to disassemble EXTERNAL block location: 01219628  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219630, pcode error at 01219630: Unable to disassemble EXTERNAL block location: 01219630  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219638, pcode error at 01219638: Unable to disassemble EXTERNAL block location: 01219638  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219640, pcode error at 01219640: Unable to disassemble EXTERNAL block location: 01219640  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219648, pcode error at 01219648: Unable to disassemble EXTERNAL block location: 01219648  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219650, pcode error at 01219650: Unable to disassemble EXTERNAL block location: 01219650  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219658, pcode error at 01219658: Unable to disassemble EXTERNAL block location: 01219658  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219660, pcode error at 01219660: Unable to disassemble EXTERNAL block location: 01219660  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219668, pcode error at 01219668: Unable to disassemble EXTERNAL block location: 01219668  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219670, pcode error at 01219670: Unable to disassemble EXTERNAL block location: 01219670  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219678, pcode error at 01219678: Unable to disassemble EXTERNAL block location: 01219678  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219680, pcode error at 01219680: Unable to disassemble EXTERNAL block location: 01219680  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219688, pcode error at 01219688: Unable to disassemble EXTERNAL block location: 01219688  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219690, pcode error at 01219690: Unable to disassemble EXTERNAL block location: 01219690  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 01219698, pcode error at 01219698: Unable to disassemble EXTERNAL block location: 01219698  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012196a0, pcode error at 012196a0: Unable to disassemble EXTERNAL block location: 012196a0  
+2026-10-13 23:10:49 WARN  (DecompileCallback) Decompiling 012196b0, pcode error at 012196b0: Unable to disassemble EXTERNAL block location: 012196b0  
+2026-10-13 23:10:51 INFO  (GhidraScript) DumpAll.java> DUMP_COMPLETE program=libnvidia-ml.so.595.71.05 | executable_path=/usr/lib/libnvidia-ml.so.595.71.05 | language=x86:LE:64:default | compiler_spec=gcc | functions_total=3951 | functions_decompiled_ok=3951 | functions_failed=0 | symbols_total=80320 | defined_strings=6042 | sections=30 | elapsed_ms=107249 | elapsed_min=1.7874833333333333 |   
+2026-10-13 23:10:51 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///usr/lib/libnvidia-ml.so.595.71.05  
+2026-10-13 23:10:51 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///usr/lib/libnvidia-ml.so.595.71.05  
+2026-10-13 23:10:52 INFO  (LocalFileSystem) /libnvidia-ml.so.595.71.05: file created (kaycke)  
+2026-10-13 23:10:52 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /libnvidia-ml.so.595.71.05 (gpuml:/libnvidia-ml.so.595.71.05)  
+2026-10-13 23:10:52 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  

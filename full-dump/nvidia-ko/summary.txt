@@ -1,0 +1,12 @@
+program=nvidia.ko
+executable_path=/home/kaycke/rea-gpu-analysis/nvidia.ko
+language=x86:LE:64:default
+compiler_spec=gcc
+functions_total=18971
+functions_decompiled_ok=18971
+functions_failed=0
+symbols_total=124120
+defined_strings=49522
+sections=82
+elapsed_ms=318645
+elapsed_min=5.31075

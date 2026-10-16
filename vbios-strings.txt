@@ -1,0 +1,107 @@
+IBM VGA Compatible
+S07/30/20
+NVIDIA GeForce GTX 1660 SUPER VGA BIOS V6693 
+Version 90.16.4F.00.E5 
+Copyright (C) 1996-2020 NVIDIA Corp.
+GPU Board
+Chip Rev   
+03/27/20
+3002G1610026
+>PfRfWfQf
+fPfSfRfV
+*f^fZf[fX
+fPfSfQfV
+)f^fYf[fX
+fPfSfQfV
+)f^fYf[fX
+ff|bfofff
+89:;<=>?
+Build Date:    
+Revision Date: 
+89:;<=>?
+f=KDASfX
+ 4i!Di"ai#oi$}i<0tT`
+fVfPfQfRf
+fZfYfXf^
+fPSfQfVf3
+fPfSQfRfVW
+_f^fZYf[fX
+fPfSQfRfW
+f_fZYf[fX
+fPfSfRfV
+f^fZf[fX
+fPfSfQfRfW
+f_fZfYf[fX
+fPfSfRfWf
+f_fZf[fX
+fPfSfRfW
+f_fZf[fX
+PLEASE POWER DOWN AND CONNECT THE PCIe POWER CABLE(S) FOR THIS GRAPHICS CARD
+NVIDIA Corporation
+BIOS Certificate Check Failed!!!
+a@???3z 
+a@???3z 
+a@???3z 
+]Z_w`f`C^
+\[-A[S]q[
+[C^q[}g:
+]FacbRbC^
+\[.B[S]q[
+[C^q[}g:
+\[/C[S]qq:
+(#(#4_G_ a3a
+'/7?-16:?
+kOkOkOkOkOkOk
+lOk:lglOk
+n1Bn2Un3_n4sn5
+$o$o$o%o%o%ozo
+p9pCpapQRPS
+fRfPfQf3
+s;t;t;t`
+89:;<=>?
+qfPfRfV6
+fPSfQfRfW
+q[f_fZfY[fX
+fPSQfRfV
+f^fZY[fX
+QR^_`SQ3
+q_f^Y[fX
+fPSQRfVW
+_f^ZY[fX
+fPfQfRVW
+_^fZfYfX
+fPSfQfRVW
+_^fZfY[fX
+66666666666
+666676666670?
+?0766666
+66666707666
+6666666?
+?6666666
+?3?0000p
+fff|ffff
+lffffffl
+fbhxh`bf
+fbhxh```
+fflxxlff
+``````bf
+fff|````
+fff|lfff
+<00000000<
+``xlffff|
+``lvffff
+``flxxlf
+fffff|``
+66666666
+66666666
+666666666666666666666666
+6666666666666
+66666667666666666666670?
+?076666666666666
+666666666666670766666666
+66666666
+666666666666666?
+?666666666666666
+66666666
+fffff|``
+0``|```0
